@@ -9,3 +9,8 @@ p {
 body {
   background: url(http://i.imgur.com/H9XKFF6.jpg);
 }
+
+iframe {
+  width: 50%;
+  height: 200px;
+}
