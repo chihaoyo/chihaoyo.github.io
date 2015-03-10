@@ -1,16 +1,3 @@
 p {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 200%;
-  color: #5356B8;
-  text-align: center;
-  width: 50%;
-}
-
-body {
-  background: url(http://i.imgur.com/H9XKFF6.jpg);
-}
-
-iframe {
-  width: 100%;
-  height: 500px;
+	color: lime;
 }
