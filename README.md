@@ -1,4 +1,3 @@
-chihaoyo.github.io
+chihao yo (typographical) or Chih Hao Yu (legal) or Yóu Zhī Hào (Pinyin-compliant)
 ==================
-
-Pages hosted on Github
+Things about me.
