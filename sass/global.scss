@@ -62,6 +62,10 @@ ul {
 #projects.hide {
 	display: none;
 }
-.spacer {
-	height: 350px;
+#projects > .project {
+	min-height: 350px;
+
+	> .content {
+		padding: 2em;
+	}
 }

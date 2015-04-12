@@ -1,19 +1,31 @@
+var $projects = $('#projects');
+var init = function() {
+	$.get('projects/list', function(data) {
+		var list = JSON.parse(data);
+		for(var i = 0; i < list.length; i++) {
+			var $content = $('<div class="content"></div>');
+			$content.append('<div class="title">' + list[i] + '</div>');
+
+			$project = $('<div class="project">');
+			$projects.append($project.append($content));
+		}
+	})
+}
+
 var _root = new Firebase('https://youzhihao.firebaseio.com/');
 var _projects = _root.child('projects');
 _projects.once('value', function(snapshot) {
 	if(snapshot.val() == null) {
-		$.get('projects', function(data) {
-			console.log(data);
-		})
+		init();
 	}
 });
 
 $('#categories > .category > a').click(function(event) {
-	$('#projects').removeClass('hide');
+	$projects.removeClass('hide');
 	event.stopPropagation();
 });
 $('article').click(function() {
-	$('#projects').addClass('hide');
+	$projects.addClass('hide');
 });
 
 // http://stackoverflow.com/questions/5802467/prevent-scrolling-of-parent-element
