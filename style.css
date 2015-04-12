@@ -1,20 +1,30 @@
 body {
-  margin: 0;
-  font-family: Georgia, serif;
-  font-size: 16px;
-  line-height: 1.5em;
+	margin: 0;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	line-height: 1.5em;
 }
 article {
-  margin: 0 1em;
+	margin: 0 1em;
 }
 h1 {
-  font-size: 20px;
-  font-weight: normal;
+	font-size: 20px;
+	font-weight: normal;
 }
-h1, p {
-  line-height: 1.5em;
-  margin: 1.5em 0;
+h1, p, ul {
+	line-height: 1.5em;
+	margin: 1.5em 0;
 }
 span.underline {
-  border-bottom: 3px solid black;
+	border-bottom: 3px solid black;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+ul li {
+	padding: 0 2em;
+}
+ul li text {
+	border-bottom: 3px solid black;
 }
