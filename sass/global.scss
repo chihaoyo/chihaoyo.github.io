@@ -13,6 +13,9 @@ article {
 	box-sizing: border-box;
 	padding: 0 1em;
 }
+article p:first-of-type {
+	margin-top: 0;
+}
 h1 {
 	font-size: 20px;
 	font-weight: normal;
