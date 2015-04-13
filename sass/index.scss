@@ -1,5 +1,16 @@
 @import 'global';
 
+$max-width: 32em;
+article {
+	box-sizing: border-box;
+	display: block;
+	padding: 0 1em;
+	max-width: $max-width*2;
+}
+article p:first-of-type {
+	margin-top: 0;
+}
+
 #categories > .category {
 	//padding: 0 2em;
 }
@@ -31,7 +42,6 @@
 }*/
 #projects > .group > .project {
 	$padding: 3em;
-	$max-width: 32em;
 	> .title {
 		padding: 0.5em $padding;
 		border-top: 6px solid black;
