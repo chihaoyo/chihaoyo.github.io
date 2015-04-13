@@ -51,26 +51,6 @@ a:hover {
 	font-family: "Source Code Pro", monospace;
 	font-size: 0.85em;
 }
-
-#categories > .category {
-	padding: 0 2em;
-}
-#projects {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 6em;
-	width: calc(100% - 6em);
-	background: #eee;
-	overflow: scroll;
-}
-#projects.hide {
-	display: none;
-}
-#projects > .project {
-	min-height: 350px;
-
-	> .content {
-		padding: 2em;
-	}
+.small {
+	font-size: 0.85em;
 }

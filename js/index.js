@@ -1,25 +1,54 @@
 var $projects = $('#projects');
+var v = '0.1.2';
 var init = function() {
-	$.get('./projects/list', function(data) {
+	var file_formats = ['png', 'jpg', 'gif'];
+	var categories = ['build', 'contribute', 'disseminate', 'create', 'sustain'];
+	var groups = [];
+
+	for(var i = 0; i < categories.length; i++) {
+		var id = categories[i];
+		groups[id] = $('<div class="group" id="' + id + '">');
+	}
+
+	$.get('./projects/list?v=' + v, function(data) {
 		var list = JSON.parse(data);
 		for(code in list) {
 			var info = list[code];
-			var $content = $('<div class="content"></div>');
-			$content.append('<div class="title">' + info.title + '</div>');
+			var $project = $('<div class="project">');
+			$project.append('<div class="title">' + info.title + '</div>');
 
-			$project = $('<div class="project">');
-			$projects.append($project.append($content));
+			if('images' in info) {
+				for(var i = 0; i < info.images.length; i++) {
+					$project.append('<img src="./projects/' + code + '/' + (i + 1) + '.' + file_formats[info.images[i]] + '">');
+				}
+			}
+			if('links' in info) {
+				var $links = $('<div class="links">');
+				for(var i = 0; i < info.links.length; i++) {
+					$links.append('<div class="link"><a href="' + info.links[i] + '" target="_blank">' + info.links[i] + '</a></div>');
+				}
+				$project.append($links);
+			}
+			if('text' in info) {
+				$project.append('<div class="text"><p>' + info.text + '</p></div>');
+			}
+			$project.append('<div class="date"><label class="small">' + info.date + '</label></div>');
+			groups[info.category].append($project);
 		}
+
+		for(id in groups)
+			$projects.append(groups[id]);
 	});
 };
-
+init();
+/*
 var _root = new Firebase('https://youzhihao.firebaseio.com/');
 var _projects = _root.child('projects');
 _projects.once('value', function(snapshot) {
 	if(snapshot.val() == null) {
 		init();
 	}
-});
+});*/
 
 $('#categories > .category > a').click(function(event) {
 	$projects.removeClass('hide');

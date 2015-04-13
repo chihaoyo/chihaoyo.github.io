@@ -1,35 +1,104 @@
 {
-	"buss": {
-		"title": "Taipei Metropolitan Bus"
-	},
-	"letterpresslib": {
-		"title": "Ri Xing Type Foundry Library"
-	},
 	"cloudmovie": {
-		"title": "cloudmovie"
+		"category": "build",
+		"title": "cloudmovie",
+		"date": "2014",
+		"images": [0, 0, 1],
+		"text": "cloudmovie is a tool to edit the web, as you would with a compilation film. Insert the links of anything that is currently published on the Internet. Give them an order and a duration. Play all back as a movie or a slide show. It is also a platform to share your work with others. cloudmovie is currently being developed by Elisa Giardina Papa, Andrea Masu, and I. It will be open-source once we are ready."
 	},
 	"iameetinghouse": {
-		"title": "International Activists Meeting House"
+		"category": "build",
+		"title": "International Activists’ Meeting House",
+		"date": "2014",
+		"images": [0],
+		"links": [
+			"//chihaoyo.net/iameetinghouse"
+		],
+		"text": "International Activists’ Meeting House is a platform for dialog. It maps people, organizations, projects, concepts, and issues on a three-axis coordinate system. Changes made to the map are synchronized instantly to all connected terminals. This enables real-time dialogs with all participants, free of geographic limitations. I created this platform during EcoHack 2014, an artist-run two-week residency in Delhi, NY, U.S.A."
 	},
 	"tenthousandthreads": {
-		"title": "Ten Thousand Threads"
+		"category": "build",
+		"title": "Ten Thousand Threads",
+		"date": "2014",
+		"images": [0, 0],
+		"text": "Ten Thousand Threads is an experimental platform for organizing information and thoughts for informed discourses and actions. This platform is currently being developed collaboratively with Yi-Chen Lin."
 	},
 	"fanba": {
-		"title": "Fanba, Taiwan!"
+		"category": "build",
+		"title": "Fanba, Taiwan!",
+		"date": "2014",
+		"images": [0, 0],
+		"links": [
+			"//github.com/chihaoyo/fanba",
+			"//chihaoyo.net/fanba"
+		],
+		"text": "Fanba, Taiwan! is a platform for translation. The translated content is syncrhonized instantly to all connected terminals, enabling real-time collaboration."
 	},
-	"igu": {
-		"title": "igu"
+	"buss": {
+		"category": "contribute",
+		"title": "Taipei Metropolitan Bus",
+		"date": "2012",
+		"images": [0, 0],
+		"links": [
+			"//chihaoyo.net/buss"
+		],
+		"text": "Tapei Metropolitan Bus interfaces with real-time data municipal bus operations, restore citizens’ access to the city’s data."
+	},
+	"letterpresslib": {
+		"category": "contribute",
+		"title": "Ri Xing Type Foundry Archive",
+		"date": "2011",
+		"images": [0, 0],
+		"text": "Ri Xing Type Foundry is the only Orthodox Chinese type foundry operating in Taiwan, and perhaps in the world. It preserves a complete set of three typefaces and seven sizes of metal type matrices in Orthodox Chinese. The Ri Xing Type Foundry Archive is a structured storage of data from a thorough and detailed survey of all metal type matrices in the foundry, in supporting the effort of digitized preservation and rehabilitation. Key data fields include the font, the representative glyph defined in Unicode, formal or informal variant, the writing style of differentiating strokes. The preservation status and a photograph of each matrix was also recorded."
+	},
+	"thetaiwanproject": {
+		"category": "disseminate",
+		"title": "The Taiwan Project",
+		"date": "2015",
+		"images": [0, 0, 0, 0, 0],
+		"links": [
+			"//thetaiwanproject.net"
+		],
+		"text": "The Taiwan Project is a series of projects surrounding my home country Taiwan. The first project from the series is “Facts about Taiwan.”"
+	},
+	"saodong": {
+		"category": "create",
+		"title": "Saodong",
+		"date": "2012",
+		"images": [1, 1, 1, 1],
+		"text": "Saodong is a literary and musical project initiated by igu, an independent band based in Taipei, Taiwan. A series of single-page websites was built to distribute the band’s music recordings. Access codes could be obtained from the printed brochures distributed around the city."
 	},
 	"DNK": {
-		"title": "David Namhon Kim"
+		"category": "create",
+		"title": "David Namhon Kim",
+		"date": "2015",
+		"images": [0, 1, 0, 0, 1, 1, 1],
+		"links": [
+			"//davidnamkim.com"
+		],
+		"text": "David Namhon Kim is an interdisciplinary artist who works with living matter. This website was created collaboratively with Chloe Lee."
 	},
 	"BIOFICTION": {
-		"title": "BIO·FICTION"
+		"category": "create",
+		"title": "BIO·FICTION Taiwan",
+		"date": "2015",
+		"images": [0, 0, 1, 1],
+		"links": [
+			"//biofiction.bioart.tw"
+		],
+		"text": "BIO·FICTION Taiwan is a science and art film festival hosted by bioart.tw at multiple cities in Taiwan, throughout the year of 2015. BIO·FICTION originated in Vienna, Austria, and is being introduced and adapted to cities around the world."
 	},
 	"TEDxTaipei": {
-		"title": "TEDxTaipei"
+		"category": "sustain",
+		"title": "TEDxTaipei",
+		"date": "2015",
+		"images": [1, 1, 0, 1, 1],
+		"text": "Official website for TEDxTaipei. This website is currently being built collaboratively with Chao-Ming Teng."
 	},
 	"HGM": {
-		"title": "Hong-gah Museum"
+		"category": "sustain",
+		"title": "Hong-gah Museum",
+		"date": "2015",
+		"text": "Official website for Hong-gah Museum. Hong-gah Museum is a private museum in Taipei, Taiwan, specializes in Taiwanese folk art collection and local art education. This website is currently being built collaboratively with Chao-Ming Teng."
 	}
 }
