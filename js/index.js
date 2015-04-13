@@ -50,7 +50,7 @@ _projects.once('value', function(snapshot) {
 	}
 });*/
 
-$('#categories > .category > a').click(function(event) {
+$('#categories > .category').click(function(event) {
 	$projects.removeClass('hide');
 	event.stopPropagation();
 });
