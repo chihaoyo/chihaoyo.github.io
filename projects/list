@@ -1,4 +1,15 @@
 {
+	"iameetinghouse": {
+		"category": "build",
+		"title": "International Activists’ Meeting House",
+		"date": "2014",
+		"images": [0],
+		"links": [
+			"//github.com/chihaoyo/iameetinghouse",
+			"//chihaoyo.net/iameetinghouse"
+		],
+		"text": "International Activists’ Meeting House is a platform for dialog. It maps people, organizations, projects, concepts, and issues on a three-axis coordinate system. Changes made to the map are synchronized instantly to all connected terminals. This enables real-time dialogs with all participants, free of geographic limitations. I created this platform during EcoHack 2014, an artist-run two-week residency in Delhi, NY, U.S.A."
+	},
 	"cloudmovie": {
 		"category": "build",
 		"title": "cloudmovie",
@@ -6,22 +17,12 @@
 		"images": [0, 0, 1],
 		"text": "cloudmovie is a tool to edit the web, as you would with a compilation film. Insert the links of anything that is currently published on the Internet. Give them an order and a duration. Play all back as a movie or a slide show. It is also a platform to share your work with others. cloudmovie is currently being developed by Elisa Giardina Papa, Andrea Masu, and I. It will be open-source once we are ready."
 	},
-	"iameetinghouse": {
-		"category": "build",
-		"title": "International Activists’ Meeting House",
-		"date": "2014",
-		"images": [0],
-		"links": [
-			"//chihaoyo.net/iameetinghouse"
-		],
-		"text": "International Activists’ Meeting House is a platform for dialog. It maps people, organizations, projects, concepts, and issues on a three-axis coordinate system. Changes made to the map are synchronized instantly to all connected terminals. This enables real-time dialogs with all participants, free of geographic limitations. I created this platform during EcoHack 2014, an artist-run two-week residency in Delhi, NY, U.S.A."
-	},
 	"tenthousandthreads": {
 		"category": "build",
 		"title": "Ten Thousand Threads",
 		"date": "2014",
 		"images": [0, 0],
-		"text": "Ten Thousand Threads is an experimental platform for organizing information and thoughts for informed discourses and actions. This platform is currently being developed collaboratively with Yi-Chen Lin."
+		"text": "Ten Thousand Threads is an experimental platform for organizing information and thoughts for informed discourses and actions. Ten Thousand Threads is also a platform that promotes open knowledge for all. This platform is currently being developed collaboratively with Yi-Chen Lin."
 	},
 	"fanba": {
 		"category": "build",
