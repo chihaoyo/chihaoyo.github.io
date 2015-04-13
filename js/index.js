@@ -1,16 +1,17 @@
 var $projects = $('#projects');
 var init = function() {
-	$.get('projects/list', function(data) {
+	$.get('./projects/list', function(data) {
 		var list = JSON.parse(data);
-		for(var i = 0; i < list.length; i++) {
+		for(code in list) {
+			var info = list[code];
 			var $content = $('<div class="content"></div>');
-			$content.append('<div class="title">' + list[i] + '</div>');
+			$content.append('<div class="title">' + info.title + '</div>');
 
 			$project = $('<div class="project">');
 			$projects.append($project.append($content));
 		}
-	})
-}
+	});
+};
 
 var _root = new Firebase('https://youzhihao.firebaseio.com/');
 var _projects = _root.child('projects');

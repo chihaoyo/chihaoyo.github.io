@@ -1,13 +1,35 @@
-[
-	"buss",
-	"letterpresslib",
-	"cloudmovie",
-	"iameetinghouse",
-	"kthread",
-	"fanba",
-	"igu",
-	"DNK",
-	"BIOFICTION",
-	"TEDxTaipei",
-	"HGM"
-]
+{
+	"buss": {
+		"title": "Taipei Metropolitan Bus"
+	},
+	"letterpresslib": {
+		"title": "Ri Xing Type Foundry Library"
+	},
+	"cloudmovie": {
+		"title": "cloudmovie"
+	},
+	"iameetinghouse": {
+		"title": "International Activists Meeting House"
+	},
+	"tenthousandthreads": {
+		"title": "Ten Thousand Threads"
+	},
+	"fanba": {
+		"title": "Fanba, Taiwan!"
+	},
+	"igu": {
+		"title": "igu"
+	},
+	"DNK": {
+		"title": "David Namhon Kim"
+	},
+	"BIOFICTION": {
+		"title": "BIO·FICTION"
+	},
+	"TEDxTaipei": {
+		"title": "TEDxTaipei"
+	},
+	"HGM": {
+		"title": "Hong-gah Museum"
+	}
+}

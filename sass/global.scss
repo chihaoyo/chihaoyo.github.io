@@ -30,6 +30,10 @@ h1 {
 p, ul {
 	margin: 1.5em 0;
 }
+ul {
+	padding: 0;
+	list-style: none;
+}
 a {
 	text-decoration: none;
 	color: blue;
@@ -39,12 +43,13 @@ a:hover {
 	color: red;
 	border-bottom-color: red;
 }
-span.underline {
+
+.underline {
 	border-bottom: 3px solid black;
 }
-ul {
-	padding: 0;
-	list-style: none;
+.mono {
+	font-family: "Source Code Pro", monospace;
+	font-size: 0.85em;
 }
 
 #categories > .category {
