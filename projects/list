@@ -8,7 +8,7 @@
 			"//github.com/chihaoyo/iameetinghouse",
 			"//chihaoyo.net/iameetinghouse"
 		],
-		"text": "International Activists’ Meeting House is a platform for dialog. It maps people, organizations, projects, concepts, and issues on a three-axis coordinate system. Changes made to the map are synchronized instantly to all connected terminals. This enables real-time dialogs with all participants, free of geographic limitations. I created this platform during EcoHack 2014, an artist-run two-week residency in Delhi, NY, U.S.A."
+		"text": "International Activists’ Meeting House is a platform for dialog. It maps people, organizations, projects, concepts, and issues on a three-axis coordinate system. Changes made to the map are synchronized instantly to all connected terminals. This enables real-time dialogs with all participants, free of geographic limitations. I created this platform during [EcoHack 2014](http://biomearts.net/ecohack2014), an artist-run two-week residency in Delhi, NY, U.S.A."
 	},
 	"cloudmovie": {
 		"category": "build",

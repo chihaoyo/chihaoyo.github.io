@@ -49,6 +49,10 @@
 	> .text {
 		padding: 0 $padding;
 		max-width: $max-width;
+
+		a {
+			border-bottom-width: 1px;
+		}
 	}
 	> .date {
 		padding: 0 $padding;

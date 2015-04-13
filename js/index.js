@@ -1,5 +1,6 @@
 var $projects = $('#projects');
 var v = '0.1.2';
+var ShowdownConverter = new Showdown.converter();
 var init = function() {
 	var file_formats = ['png', 'jpg', 'gif'];
 	var categories = ['build', 'contribute', 'disseminate', 'create', 'sustain'];
@@ -30,7 +31,7 @@ var init = function() {
 				$project.append($links);
 			}
 			if('text' in info) {
-				$project.append('<div class="text"><p>' + info.text + '</p></div>');
+				$project.append('<div class="text">' + ShowdownConverter.makeHtml(info.text) + '</div>');
 			}
 			$project.append('<div class="date"><label class="small">' + info.date + '</label></div>');
 			groups[info.category].append($project);
