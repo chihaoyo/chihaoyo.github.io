@@ -22,7 +22,7 @@
 		"title": "Ten Thousand Threads",
 		"date": "2014",
 		"images": [0, 0],
-		"text": "Ten Thousand Threads is an experimental platform for organizing information and thoughts for informed discourses and actions. Ten Thousand Threads is also a platform that promotes open knowledge for all. This platform is currently being developed collaboratively with Yi-Chen Lin."
+		"text": "Ten Thousand Threads is an experimental platform for organizing information and thoughts for informed discourses and actions. Ten Thousand Threads is also a platform that promotes open knowledge for all. By default, all content aggregated in the platform is public, and anyone can access this platform without an account. This platform is currently being developed collaboratively with Yi-Chen Lin."
 	},
 	"fanba": {
 		"category": "build",
@@ -33,7 +33,7 @@
 			"//github.com/chihaoyo/fanba",
 			"//chihaoyo.net/fanba"
 		],
-		"text": "Fanba, Taiwan! is a platform for translation. The translated content is syncrhonized instantly to all connected terminals, enabling real-time collaboration."
+		"text": "Fanba, Taiwan! is a platform for translating content. A project is divided into paragraphs, which then will be individually translated by participating citizens of the world. The translated content is syncrhonized instantly to all connected terminals, enabling real-time collaboration. The platform also provides REST APIs to reference and obtain all data."
 	},
 	"buss": {
 		"category": "contribute",
@@ -43,14 +43,14 @@
 		"links": [
 			"//chihaoyo.net/buss"
 		],
-		"text": "Tapei Metropolitan Bus interfaces with real-time data municipal bus operations, restore citizens’ access to the city’s data."
+		"text": "Tapei Metropolitan Bus interfaces with real-time data of municipal bus operations. Through its simplified and straight-forward interface, this web app has restored the citizens’ access to the city’s data."
 	},
 	"letterpresslib": {
 		"category": "contribute",
 		"title": "Ri Xing Type Foundry Archive",
 		"date": "2011",
 		"images": [0, 0],
-		"text": "Ri Xing Type Foundry is the only Orthodox Chinese type foundry operating in Taiwan, and perhaps in the world. It preserves a complete set of three typefaces and seven sizes of metal type matrices in Orthodox Chinese. The Ri Xing Type Foundry Archive is a structured storage of data from a thorough and detailed survey of all metal type matrices in the foundry, in supporting the effort of digitized preservation and rehabilitation. Key data fields include the font, the representative glyph defined in Unicode, formal or informal variant, the writing style of differentiating strokes. The preservation status and a photograph of each matrix was also recorded."
+		"text": "Ri Xing Type Foundry is the only Orthodox Chinese type foundry operating in Taiwan, and perhaps in the world. It preserves a complete set of three typefaces and seven sizes of metal type matrices in Orthodox Chinese. The Ri Xing Type Foundry Archive is a structured storage of data generated from a thorough and detailed survey of all metal type matrices in the foundry. Key data fields include the font, the Unicode-compatible representative glyph, formal or informal variant, and the writing style of differentiating strokes. The preservation status and a photograph of each matrix was also recorded. This archive was created to support the effort of digitized preservation and rehabilitation of Orthodox Chinese letterpress."
 	},
 	"thetaiwanproject": {
 		"category": "disseminate",
