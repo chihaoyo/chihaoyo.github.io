@@ -15,14 +15,14 @@
 		"title": "cloudmovie",
 		"date": "2014",
 		"images": [0, 0, 1],
-		"text": "cloudmovie is a tool to edit the web, as you would with a compilation film. Insert the links of anything that is currently published on the Internet. Give them an order and a duration. Play all back as a movie or a slide show. It is also a platform to share your work with others. cloudmovie is currently being developed by Elisa Giardina Papa, Andrea Masu, and I. It will be open-source once we are ready."
+		"text": "cloudmovie is a tool to edit the web, as you would with a compilation film. Insert the links of anything that is currently published on the Internet. Give them an order and a duration. Play all back as a movie or a slide show. It is also a platform to share your work with others. cloudmovie is currently being developed collaboratively with _Elisa Giardina Papa_ and _Andrea Masu_. It will be open-source once we are ready."
 	},
 	"tenthousandthreads": {
 		"category": "build",
 		"title": "Ten Thousand Threads",
 		"date": "2014",
 		"images": [0, 0],
-		"text": "Ten Thousand Threads is an experimental platform for organizing information and thoughts for informed discourses and actions. Ten Thousand Threads is also a platform that promotes open knowledge for all. By default, all content aggregated in the platform is public, and anyone can access this platform without an account. This platform is currently being developed collaboratively with Yi-Chen Lin."
+		"text": "Ten Thousand Threads is an experimental platform for organizing information and thoughts for informed discourses and actions. Ten Thousand Threads is also a platform that promotes open knowledge for all. By default, all content aggregated in the platform is public, and anyone can access this platform without an account. This platform is currently being developed collaboratively with _Yi-Chen Lin_."
 	},
 	"fanba": {
 		"category": "build",
@@ -50,7 +50,7 @@
 		"title": "Ri Xing Type Foundry Archive",
 		"date": "2011",
 		"images": [0, 0],
-		"text": "Ri Xing Type Foundry is the only Orthodox Chinese type foundry operating in Taiwan, and perhaps in the world. It preserves a complete set of three typefaces and seven sizes of metal type matrices in Orthodox Chinese. The Ri Xing Type Foundry Archive is a structured storage of data generated from a thorough and detailed survey of all metal type matrices in the foundry. Key data fields include the font, the Unicode-compatible representative glyph, formal or informal variant, and the writing style of differentiating strokes. The preservation status and a photograph of each matrix was also recorded. This archive was created to support the effort of digitized preservation and rehabilitation of Orthodox Chinese letterpress."
+		"text": "_Ri Xing Type Foundry_ is the only Orthodox Chinese type foundry operating in Taiwan, and perhaps in the world. It preserves a complete set of three typefaces and seven sizes of metal type matrices in Orthodox Chinese. The Ri Xing Type Foundry Archive is a structured storage of data generated from a thorough and detailed survey of all metal type matrices in the foundry. Key data fields include the font, the Unicode-compatible representative glyph, formal or informal variant, and the writing style of differentiating strokes. The preservation status and a photograph of each matrix was also recorded. This archive was created to support the effort of digitized preservation and rehabilitation of Orthodox Chinese letterpress."
 	},
 	"thetaiwanproject": {
 		"category": "disseminate",
@@ -67,7 +67,7 @@
 		"title": "Saodong",
 		"date": "2012",
 		"images": [1, 1, 1, 1],
-		"text": "Saodong was a literary and musical project initiated by igu, an independent band based in Taipei, Taiwan. A series of single-page websites were built to distribute the band’s music recordings. Access codes could be obtained from the printed brochures distributed around the city."
+		"text": "Saodong was a literary and musical project initiated by _igu_, an independent band based in Taipei, Taiwan. A series of single-page websites were built to distribute the band’s music recordings. Access codes could be obtained from the printed brochures distributed around the city."
 	},
 	"DNK": {
 		"category": "create",
@@ -77,7 +77,7 @@
 		"links": [
 			"//davidnamkim.com"
 		],
-		"text": "David Namhon Kim is an interdisciplinary artist who works with living matter. This website was created collaboratively with Chloe Lee."
+		"text": "_David Namhon Kim_ is an interdisciplinary artist who works with living matter, digital medium and social relationships. The triangular index of this website symbolizes the three major discourses in the artist’s body of work. This website was created collaboratively with [Chloe Lee](http://chloeleedesign.com/)."
 	},
 	"BIOFICTION": {
 		"category": "create",
@@ -94,12 +94,12 @@
 		"title": "TEDxTaipei",
 		"date": "2015",
 		"images": [1, 1, 0, 1, 1],
-		"text": "Official website for TEDxTaipei. This website is currently being built collaboratively with Chao-Ming Teng."
+		"text": "Official website for TEDxTaipei. This website is currently being built collaboratively with _Chao-Ming Teng_."
 	},
 	"HGM": {
 		"category": "sustain",
 		"title": "Hong-gah Museum",
 		"date": "2015",
-		"text": "Official website for Hong-gah Museum. Hong-gah Museum is a private museum in Taipei, Taiwan, specializes in Taiwanese folk art collection and local art education. This website is currently being built collaboratively with Chao-Ming Teng."
+		"text": "Official website for Hong-gah Museum. Hong-gah Museum is a private museum in Taipei, Taiwan, specializes in Taiwanese folk art collection and local art education. This website is currently being built collaboratively with _Chao-Ming Teng_."
 	}
 }
